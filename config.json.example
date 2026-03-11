@@ -1,0 +1,90 @@
+{
+    "mistral_model": "mistral-small-latest",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "fetch_timeout": 15000,
+    "cors_proxies": [
+        {
+            "name": "CorsProxy.io",
+            "url": "https://corsproxy.io/?",
+            "enabled": true
+        },
+        {
+            "name": "AllOrigins",
+            "url": "https://api.allorigins.win/raw?url=",
+            "enabled": true
+        },
+        {
+            "name": "CodeTabs",
+            "url": "https://api.codetabs.com/v1/proxy?quest=",
+            "enabled": true
+        },
+        {
+            "name": "ThingProxy",
+            "url": "https://thingproxy.freeboard.io/fetch/",
+            "enabled": true
+        },
+        {
+            "name": "Corsproxy.org",
+            "url": "https://corsproxy.org/?",
+            "enabled": true
+        }
+    ],
+    "sources": {
+        "bbc": {
+            "name": "BBC News",
+            "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+            "color": "#bb1919",
+            "region": "europe",
+            "flag": "🇬🇧",
+            "enabled": true
+        },
+        "guardian": {
+            "name": "The Guardian",
+            "url": "https://www.theguardian.com/world/rss",
+            "color": "#052962",
+            "region": "europe",
+            "flag": "🇬🇧",
+            "enabled": true
+        },
+        "sky": {
+            "name": "Sky News",
+            "url": "https://feeds.skynews.com/feeds/rss/world.xml",
+            "color": "#0072C6",
+            "region": "europe",
+            "flag": "🇬🇧",
+            "enabled": true
+        },
+        "ansa": {
+            "name": "ANSA",
+            "url": "https://www.ansa.it/sito/notizie/mondo/mondo_rss.xml",
+            "color": "#009246",
+            "region": "europe",
+            "flag": "🇮🇹",
+            "enabled": true
+        },
+        "cnn": {
+            "name": "CNN",
+            "url": "http://rss.cnn.com/rss/edition_world.rss",
+            "color": "#cc0000",
+            "region": "americas",
+            "flag": "🇺🇸",
+            "enabled": true
+        },
+        "nyt": {
+            "name": "NY Times",
+            "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+            "color": "#000000",
+            "region": "americas",
+            "flag": "🇺🇸",
+            "enabled": true
+        },
+        "aljazeera": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "color": "#f58220",
+            "region": "asia",
+            "flag": "🇶🇦",
+            "enabled": true
+        }
+    }
+}
